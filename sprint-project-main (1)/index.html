@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info-screen">
+        <p class="halal">WE PROUDLY SERVE 100% HALAL FOOD IN OUR RESTAURANT</p>
+        <header>
+            <nav>
+            <img class="logo" src="https://stromboli.dk/wp-content/uploads/2024/05/STROMBOLI-1.svg" alt="STROMBOLI (1)">
+            <div class="language-buttons"> 
+                <!-- Language selection buttons -->
+                <a href="./index.html" class="language-btn-en" id="english">ENGLISH</a>
+                <a href="/Danish/danish.html" class="language-btn-dk" id="danish">DANISH</a>
+            </div>
+            <div class="date">
+                <p>Tuesday, 17:35:56</p>
+            </div>
+        </nav>
+        </header>
+        <main>
+            <aside class="categories">
+                <!-- Category buttons -->
+                <a href="#meat" class="category-btn">Meat</a>
+                <a href="#salads" class="category-btn">Salads</a>
+                <a href="#pizza" class="category-btn">Pizza</a>
+                <a href="#sides" class="category-btn">Sides</a>
+                <a href="#pastries" class="category-btn">Pastries</a>
+                <a href="#deserts" class="category-btn">Deserts</a>
+                <a href="#pasta" class="category-btn">Pasta</a>
+            </aside>
+
+            <hr class="horizontal-line">
+
+            <section class="info">
+                <!-- Meat category -->
+                <div id="meat" class="food-cards">
+                    <div class="food-card">
+                        <img src="./assets/meat2.webp" alt="Meat">
+                        <img class="peppers" src="/assets/spicy.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Backed beef" data-description="Baked beef covered in a tomato-based sauce and roasted tomatoes and onion." data-allergens="Allergens: None">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="./assets/chicken.webp" alt="Chicken">
+                        <img class="peppers" src="/assets/hot.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Chicken" data-description="Chicken cooked in a tomato-based sauce, spiced with herbs and spices." data-allergens="Allergens: Spices">i</a>
+                    </div>
+                </div>
+
+
+                <!-- Salads category -->
+                <div id="salads" class="food-cards">
+                    <div class="food-card">
+                        <img src="assets/saladbeans.webp" alt="Salad Beans">
+                        <img class="peppers" src="/assets/mild.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Salad Beans" data-description="Beens salad with olives, red peppers and leek." data-allergens="Allergens: None">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/saladgreek.webp" alt="Greek Salad">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Greek salad" data-description="Greek salad with tomatoes, cucmber, onion, feta cheese and oregano." data-allergens="Allergens: Dairy, Herbs">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/saladmozarella.webp" alt="Mozzarella Salad">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Mozzarella Salad" data-description="Mozzarella salad with tomatoes, lettuce and pesto." data-allergens="Allergens: Dairy, Nuts">i</a>
+                    </div>
+                </div>
+
+
+
+                <!-- Pizza Category -->
+                <div id="pizza" class="food-cards">
+                    <div class="food-card">
+                        <img src="assets/pizza.webp" alt="Pizza">
+                        <img class="peppers" src="/assets/mild.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Pizza" data-description="Pepperoni amd meat pizza." data-allergens="Allergens: Gluten, Spice Dairy">i</a>
+                    </div>
+                </div>
+
+
+                <!-- Sides category -->
+                <div id="sides" class="food-cards">
+                    <div class="food-card">
+                        <img src="assets/fries.webp" alt="Fries">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Fries" data-description="Crispy golden fries." data-allergens="Allergens: None">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/dolmados.webp" alt="Dolmados">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Dolmados" data-description="Stuffed grape leaves with rice." data-allergens="Allergens: Gluten">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/potatoes.webp" alt="Potatoes">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Potatoes" data-description="Roasted potatoes with yellow cheese and cream." data-allergens="Allergens: Dairy">i</a>
+                    </div>
+                </div>
+        
+                 <!-- Pastries category -->
+                 <div id="pastries" class="food-cards">
+                    <div class="food-card">
+                        <img src="assets/bread.webp" alt="Bread">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Bread" data-description="Freshly baked bread." data-allergens="Allergens: Gluten">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/breads.webp" alt="Breads">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Breads" data-description="Assorted breads." data-allergens="Allergens: Gluten">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/garlicbread.webp" alt="Garlic Bread">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Garlic Bread" data-description="Garlic flavored bread." data-allergens="Allergens: Gluten, Dairy">i</a>
+                    </div>
+                </div>
+
+                <!-- Deserts category -->
+                <div id="deserts" class="food-cards">
+                    <div class="food-card">
+                        <img src="assets/cake.webp" alt="Cake">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Cake" data-description="Chocolate cake with vanilla cream." data-allergens="Allergens: Dairy, Gluten">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/fruit.webp" alt="Fruits">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Fruits" data-description="Grapes and oranges." data-allergens="Allergens: Citrus">i</a>
+                    </div>
+                </div>
+
+                <!-- Pasta category -->
+                <div id="pasta" class="food-cards">
+                    <div class="food-card">
+                        <img src="assets/pasta1.webp" alt="Pasta">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Pasta" data-description="Pasta with chicken, broccoli, mushrooms and sour cream." data-allergens="Allergens: Gluten, Dairy">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/pasta3.webp" alt="Pasta">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Spaghetti Bolognese" data-description="Spaghetti bolognese with beef mince and tomato sauce." data-allergens="Allergens: Gluten, Dairy">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/pastasalad.webp" alt="Pasta">
+                        <img class="peppers" src="/assets/mild.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Pasta" data-description="Pasta with tomato sauce, corn, peas and dried tomatoes." data-allergens="Allergens: Gluten">i</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Modal for more information -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>More Information</h2>
+                <p class="description"></p>
+                <p class="allergens"></p>
+            </div>
+        </div>
+        <div id="overlay" class="overlay"></div>
+        <footer>
+            <!-- <h1>EVERYTHING IS HALAL</h1> -->
+            <div class="price-buffet">
+                <div class="frokost-container buffet-item">
+                    <h1>Lunch</h1>
+                    <p>Monday - Sunday</p>
+                    <p>12:00 - 16:00</p>
+                    <h2>149DKK</h2>
+                </div>
+                <div class="aften-container buffet-item">
+                    <h1>Evening</h1>
+                    <p>Sunday - Thursday</p>
+                    <p>16:00 - 21:30</p>
+                    <h2>189DKK</h2>
+                    
+                </div>
+                <div class="aften-container buffet-item">
+                    <h1>Evening</h1>
+                    <p>Friday - Saturday</p>
+                    <p>22:00 - 23:00</p>
+                    <h2>199DKK</h2>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

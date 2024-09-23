@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Skærm</title>
+    <link rel="stylesheet" href="danish_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info-screen">
+        <p class="halal">VI SERVERER 100% HALAL MAD I VORES RESTAURANT</p>
+        <header>
+            <nav>
+            <img class="logo" src="https://stromboli.dk/wp-content/uploads/2024/05/STROMBOLI-1.svg" alt="STROMBOLI (1)">
+            <div class="language-buttons"> 
+                <!-- Sprogvalg knapper -->
+                <a href="../index.html" class="language-btn-en" id="english">ENGELSK</a>
+                <a href="./danish.html" class="language-btn-dk" id="danish">DANSK</a>
+            </div>
+            <div class="date">
+                <p>Tirsdag, 17:35:56</p>
+            </div>
+        </nav>
+        </header>
+        <main>
+            <aside class="categories">
+                <!-- Kategori knapper -->
+                <a href="#meat" class="category-btn">Kød</a>
+                <a href="#salads" class="category-btn">Salater</a>
+                <a href="#pizza" class="category-btn">Pizza</a>
+                <a href="#sides" class="category-btn">Tilbehør</a>
+                <a href="#pastries" class="category-btn">Bagværk</a>
+                <a href="#deserts" class="category-btn">Desserter</a>
+                <a href="#pasta" class="category-btn">Pasta</a>
+            </aside>
+
+            <hr class="horizontal-line">
+
+            <section class="info">
+                <!-- Kød kategori -->
+                <div id="meat" class="food-cards">
+                    <div class="food-card">
+                        <img src="/assets/meat2.webp" alt="Kød">
+                        <img class="peppers" src="/assets/spicy.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Bakket oksekød" data-description="Bagt oksekød dækket af en tomatbaseret sauce og ristede tomater og løg." data-allergens="Allergener: Ingen">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/chicken.webp" alt="Kød">
+                        <img class="peppers" src="/assets/hot.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Oksekød ribben" data-description="Langsomt kogte okseribben i en fyldig sauce, med citrusbaseret marinade." data-allergens="Allergener: Soja, Gluten, Mejeri">i</a>
+                    </div>
+                </div>
+
+                <!-- Salater kategori -->
+                <div id="salads" class="food-cards">
+                    <div class="food-card">
+                        <img src="../assets/saladbeans.webp" alt="Salat Bønner">
+                        <img class="peppers" src="/assets/mild.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Salat Bønner" data-description="Salat bønner med oliven, rød peberfrugt og porre." data-allergens="Allergener: Ingen">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/saladgreek.webp" alt="Græsk Salat">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Græsk Salat" data-description="Græsk salat med tomater, agurk, løg, fetaost og oregano." data-allergens="Allergener: Mejeri, urter">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/saladmozarella.webp" alt="Mozzarella salat">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Mozzarella salat" data-description="Mozzarella salat med tomater, salat og pesto." data-allergens="Allergener: Mejeri, nødder">i</a>
+                    </div>
+                </div>
+
+                <!-- Pizza kategori -->
+                <div id="pizza" class="food-cards">
+                    <div class="food-card">
+                        <img src="../assets/pizza.webp" alt="Pizza">
+                        <img class="peppers" src="/assets/mild.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Pizza" data-description="Pepperoni og kødpizza." data-allergens="Allergener: Gluten, Spice Dairy">i</a>
+                    </div>
+                </div>
+
+                <!-- Tilbehør kategori -->
+                <div id="sides" class="food-cards">
+                    <div class="food-card">
+                        <img src="../assets/fries.webp" alt="Pommes Frites">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Pommes Frites" data-description="Sprøde gyldne pommes frites." data-allergens="Allergener: Ingen">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/garlicbread.webp" alt="Hvidløgsbrød">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Hvidløgsbrød" data-description="Hvidløgsbrød." data-allergens="Allergener: Gluten, Mælk">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/dolmados.webp" alt="Dolmados">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Dolmados" data-description="Fyldte drueblade med ris." data-allergens="Allergener: Gluten">i</a>
+                    </div>
+                </div>
+
+                <!-- Bagværk kategori -->
+                <div id="pastries" class="food-cards">
+                    <div class="food-card">
+                        <img src="../assets/bread.webp" alt="Brød">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Brød" data-description="Friskbagt brød." data-allergens="Allergener: Gluten">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/breads.webp" alt="Brød">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Brød" data-description="Assorterede brød." data-allergens="Allergener: Gluten">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/garlicbread.webp" alt="Hvidløgsbrød">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Hvidløgsbrød" data-description="Hvidløgsbrød." data-allergens="Allergener: Gluten, Mælk">i</a>
+                    </div>
+                </div>
+
+                <!-- Desserter kategori -->
+                <div id="deserts" class="food-cards">
+                    <div class="food-card">
+                        <img src="../assets/cake.webp" alt="Kage">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Kage" data-description="Chokoladekage med vaniljecreme." data-allergens="Allergener: Gluten, Mælk">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/fruit.webp" alt="Frugt">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Frugt" data-description="Druer og appelsiner." data-allergens="Allergener: Citrus">i</a>
+                    </div>
+                </div>
+
+                <!-- Pasta kategori -->
+                <div id="pasta" class="food-cards">
+                    <div class="food-card">
+                        <img src="../assets/pasta1.webp" alt="Pasta">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Pasta" data-description="Pasta med kylling, broccoli, champignon og creme fraiche." data-allergens="Allergener: Gluten, Mælk">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/pasta3.webp" alt="Pasta">
+                        <img class="peppers" src="/assets/no peppers.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Spaghetti Bolognese" data-description="Spaghetti bolognese med oksefars og tomatsauce." data-allergens="Allergener: Gluten, Mælk">i</a>
+                    </div>
+                    <div class="food-card">
+                        <img src="../assets/pastasalad.webp" alt="Pasta">
+                        <img class="peppers" src="/assets/mild.webp" alt="Hot level">
+                        <a href="javascript:void(0);" class="btn-2" data-title="Pasta" data-description="Pasta med tomatsauce, majs, ærter og tørrede tomater." data-allergens="Allergener: Gluten">i</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Modal for mere information -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Mere Information</h2>
+                <p class="description"></p>
+                <p class="allergens"></p>
+            </div>
+        </div>
+        <div id="overlay" class="overlay"></div>
+        <footer>
+            <!-- <h1>ALT ER HALAL</h1> -->
+            <div class="price-buffet">
+                <div class="frokost-container buffet-item">
+                    <h1>Frokost</h1>
+                    <p>Mandag - Søndag</p>
+                    <p>12:00 - 16:00</p>
+                    <h2>149DKK</h2>
+                </div>
+                <div class="aften-container buffet-item">
+                    <h1>Aften</h1>
+                    <p>Søndag - Torsdag</p>
+                    <p>16:00 - 21:30</p>
+                    <h2>189DKK</h2>
+                </div>
+                <div class="aften-container buffet-item">
+                    <h1>Aften</h1>
+                    <p>Fredag - Lørdag</p>
+                    <p>22:00 - 23:00</p>
+                    <h2>199DKK</h2>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Link til ekstern JavaScript-fil -->
+    <script src="script_danish.js"></script>
+</body>
+</html>
